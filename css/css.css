@@ -1,0 +1,200 @@
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+.vl {
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    margin-left: 10px;
+    margin-right: 1px;
+    height: 100%;
+  }
+
+.link{
+    color: inherit; 
+    text-decoration: none;
+}
+
+.logo {
+    width: auto; /* largura desejada */
+    height: 14px; /* altura automática proporcional à largura */
+}
+
+.elon {
+    width: auto; /* largura desejada */
+    height: 31vh; /* altura automática proporcional à largura */
+    border-radius: 15px;
+    margin-bottom: 4vh
+}
+
+.starlink{
+    border-radius: 15px;
+    width: 60%;
+}
+
+.foto3{
+    height: 23vw;
+    border-radius: 15px;
+}
+
+.portfolio{
+    width: 80vw;
+}
+
+.cabecalho-rodape {
+    background: rgba(255, 255, 255, 0.1); /* Fundo branco com transparência */
+    display: flex;
+    align-items: center; /* alinha itens verticalmente */
+    text-transform: uppercase; /* converte texto para caixa alta */
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.cabecalho-rodape p {
+    margin: 0px;
+}
+
+.bg-cover {
+    background-image: url('../img/home.png'); /* Atualize o caminho da imagem aqui */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+}
+
+.content {
+    margin: 2vh;
+    padding: 2vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.2); 
+  }
+.content h1 {
+    font-weight: 600;
+    letter-spacing: 0.2em; /* Ajuste o valor conforme necessário */
+}
+.content p {
+    text-align: justify;
+    text-indent: 1.5em;
+}
+
+.content li{
+    text-align: justify;
+}
+
+.btn {
+    background: rgba(255, 255, 255, 0.2); /* Fundo branco com transparência */
+    border: 1px solid white; /* Borda branca */
+    padding: 10px 20px;
+    border-radius: 5px;
+    backdrop-filter: blur(10px); /* Efeito de desfoque */
+    -webkit-backdrop-filter: blur(10px); /* Para compatibilidade com navegadores baseados em WebKit */
+    color: black; /* Cor do texto */
+    font-size: 12px;
+    cursor: pointer;
+    color: white
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.3); /* Aumenta a opacidade no hover */
+    color: white;
+}
+
+.btn-link {
+    padding: 10px 10px;
+    backdrop-filter: blur(10px); /* Efeito de desfoque */
+    -webkit-backdrop-filter: blur(10px); /* Para compatibilidade com navegadores baseados em WebKit */
+    color: black; /* Cor do texto */
+    font-size: 12px;
+    cursor: pointer;
+    color: white
+}
+
+.btn-link:hover {
+    background: rgba(255, 255, 255, 0.1); /* Aumenta a opacidade no hover */
+    color: white;
+}
+
+.btn-logo {
+    height: 100%;
+    backdrop-filter: blur(10px); /* Efeito de desfoque */
+    -webkit-backdrop-filter: blur(10px); /* Para compatibilidade com navegadores baseados em WebKit */
+    color: black; /* Cor do texto */
+    cursor: pointer;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    padding-left: 2vh;
+    padding-right: 1vh;
+}
+
+
+.btn-logo:hover {
+    background: rgba(255, 255, 255, 0.1); /* Aumenta a opacidade no hover */
+    color: white;
+}
+
+/* BARRA LATERAL */
+/* Estilos para o ícone */
+.nav-icon {
+    cursor: pointer; /* Mudança do cursor para indicar que é clicável */
+    padding: 2vh;
+}
+
+/* Estilos para o dropdown menu */
+.dropdown-menu {
+    background: rgba(255, 255, 255, 0.2); /* Fundo branco com transparência */
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+    /* Adicione outros estilos conforme necessário */
+}
+
+.dropdown-item{
+    color: white;
+    text-transform:none;
+}
+
+table{
+    text-align: justify;
+    font-size: 13px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+
+table th{
+    padding: 10px;
+}
+
+.linha{
+    background-color: rgba(0, 0, 0, 0.1);
+}
