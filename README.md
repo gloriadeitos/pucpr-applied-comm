@@ -8,6 +8,6 @@
   <img src="https://github.com/gloriadeitos/gloriadeitos/blob/main/img/gloriadeitos-logo.png" alt="gloriadeitos-logo" height="100">
 </p>
 
-**Disciplina:** Comunicação Aplicada
-**Curso:** Análise e Desenvolvimento de Sistemas
+**Disciplina:** Comunicação Aplicada <br>
+**Curso:** Análise e Desenvolvimento de Sistemas <br>
 **Instituição:** Pontifícia Universidade Católica do Paraná (PUC-PR) - Brasil  
